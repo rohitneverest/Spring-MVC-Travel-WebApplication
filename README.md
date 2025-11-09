@@ -36,23 +36,37 @@ chatbot: Botpress
 📂 Project Structure
 
 src/main/java/com/example/travelease/
+
    ├─ config/           # Security & PayPal configuration
+   
    ├─ controller/       # Controllers (Home, Itinerary, PayPal)
+   
    ├─ model/            # Entities (User, Admin)
+   
    ├─ repo/             # JPA Repositories
+   
    └─ service/          # Business logic services
 
 src/main/resources/
+
    ├─ application.properties
+   
    ├─ static/           # css, js, images
+   
    └─ templates/        # (optional for Thymeleaf later)
 
 src/main/webapp/WEB-INF/views/
+
    ├─ itinerary/        # Destination-specific JSPs
+   
    ├─ State/            # State-wise JSPs
+   
    ├─ Navbar/final/     # Navbar & general JSPs
+   
    ├─ PaymentGateway/   # Payment views
+   
    ├─ Validation/       # Success & error views
+   
    └─ index.jsp, login.jsp, Registration.jsp, etc.
 
 
