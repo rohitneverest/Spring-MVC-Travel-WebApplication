@@ -6,6 +6,7 @@
 TRAVELEASE🌍✈️
   
 Travelease ---->  Java + Spring Boot + JSP-based Travel Booking Web Application.
+
 It provides itinerary details for Northeast India destinations, supports user authentication with BCrypt, integrates PayPal for payments and 
 features a Botpress-powered chatbot for instant travel assistance.
 
@@ -13,23 +14,36 @@ features a Botpress-powered chatbot for instant travel assistance.
 🚀 Features
 
 🔐 User registration & login (passwords stored securely with BCrypt)
+
 🗺️ Itinerary pages for different destinations (Agartala, Dawki, Tawang, etc.)
+
 📍 State & city-wise travel information
+
 💳 PayPal Sandbox integration for payments
+
 📦 Booking system with success, failure & validation pages
+
 📸 Gallery, reviews, and contact form
+
 🎨 JSP + CSS for responsive frontend
+
 🤖 Botpress-powered chatbot for instant travel assistance
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Tech Stack
 
 Language: Java
+
 Backend: Spring Boot, Spring MVC, Spring Security (BCrypt)
+
 Frontend: JSP, CSS, JS
+
 Database: MySQL with JPA/Hibernate
+
 Payments: PayPal REST API (Sandbox Mode)
+
 Build Tool: Maven
+
 chatbot: Botpress
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -81,16 +95,22 @@ CREATE DATABASE travel;
 Update src/main/resources/application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/travel
+
 spring.datasource.username=root
+
 spring.datasource.password=YOUR_DB_PASSWORD
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.show-sql=true
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3️⃣ Configure PayPal Sandbox
 
 paypal.client.id=YOUR_SANDBOX_CLIENT_ID
+
 paypal.client.secret=YOUR_SANDBOX_SECRET
+
 paypal.mode=sandbox
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -116,15 +136,20 @@ App will be running at:
 🔒 Security
 
 User passwords are hashed using BCrypt
+
 Spring Security handles authentication and authorization
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🤖 Chatbot Integration (Botpress)
 
 Developed a conversational chatbot using Botpress.
+
 Trained the bot with custom knowledge base (FAQs, travel info, booking queries).
+
 Hosted the bot on Botpress Cloud and integrated it into the Travelease app via an embed link.
+
 Provides real-time assistance to users for:
+
 -->Destination details,Booking guidance,Payment queries,General support
 
 Enhances the user experience by offering 24/7 automated travel assistance.
@@ -133,8 +158,11 @@ Enhances the user experience by offering 24/7 automated travel assistance.
 ✅ Future Improvements
 
 JWT-based authentication
+
 Email booking confirmations
+
 Docker support
+
 Deployment on AWS / Heroku
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
