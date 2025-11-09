@@ -126,5 +126,6 @@ Deployment on AWS / Heroku
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📸 Screenshots
    
-<img width="1920" height="892" alt="homepage" src="https://github.com/user-attachments/assets/374f44ef-2522-46ad-a063-8c8e956837cd" />
+<img width="1920" height="892" alt="homepage" src="https://github.com/user-attachments/assets/4803e38c-ad75-426f-bd54-d0f7e9da3379" />
+
 
